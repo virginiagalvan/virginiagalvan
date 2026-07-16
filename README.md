@@ -44,11 +44,17 @@ Biological scientist transitioning from academia to industry. My research backgr
 
 ## Portfolio projects
 
-<!-- Coming soon -->
+### [WS/DGAT Biosynthetic Potential in Marine and Terrestrial Environments](https://github.com/virginiagalvan/wsdgat-biosynthetic-potential)
+
+Computational metagenomics survey mining public sequence databases (IMG/M) — 13 local metagenomes, 101 global marine metagenomes, 227 terrestrial metagenomes, 50 paired Malaspina deep-ocean samples, and 18,392 bacterial genomes — for a target lipid-biosynthesis enzyme family (WS/DGAT, Pfam PF03007). End-to-end pipeline: gene/domain identification, taxonomic assignment (BLASTp + MEGAN6), phylogenetics (MEGA-X), relative-abundance normalization against ribosomal marker genes, and statistical testing (Mann-Whitney U, Wilcoxon signed-rank, Spearman correlation) in Python. 7 notebooks, fully reproducible, tied to a peer-reviewed publication (PLOS ONE, 2023).
+
+`Python` `pandas` `scipy` `Biopython` `geopandas` `Jupyter`
 
 ---
 
 ## Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/virgina-galvan-390ba233b/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/virginiagalvan)
 [![Email](https://img.shields.io/badge/Email-virginiagalvan13@gmail.com-181717?style=flat&logo=gmail&logoColor=white)](mailto:virginiagalvan13@gmail.com)
+
