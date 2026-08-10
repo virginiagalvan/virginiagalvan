@@ -1,6 +1,6 @@
 # Virginia Galván
 
-Data Scientist · PhD in Biological Sciences · Argentina
+Data Scientist · PhD in Biological Sciences 
 
 ---
 
