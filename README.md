@@ -1,6 +1,6 @@
 # Virginia Galván
 
-Data Scientist · PhD in Biological Sciences 
+Data Scientist · PhD in Biological Sciences
 
 ---
 
@@ -45,8 +45,6 @@ Computational metagenomics survey mining public sequence databases (IMG/M) — 1
 ---
 
 ## Selected publications
-
-- **Exploring the versatility of fatty acid biosynthesis in *Escherichia coli*: Production of random methyl branched fatty acids** · *Metabolic Engineering, 2025* · [10.1016/j.ymben.2025.03.005](https://doi.org/10.1016/j.ymben.2025.03.005)
 
 - **High wax ester and triacylglycerol biosynthesis potential in coastal sediments of Antarctic and Subantarctic environments** · *PLOS ONE, 2023* · [10.1371/journal.pone.0288509](https://doi.org/10.1371/journal.pone.0288509)
   Galván V, Pascutti F, Sandoval NE, Lanfranconi MP, Lozada M, Arabolaza AL, Mac Cormack WP, Alvarez HM, Gramajo HC, & Dionisi HM
