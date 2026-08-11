@@ -28,9 +28,9 @@ Data scientist with a PhD in Biological Sciences, applying statistical modeling 
 
 ## Portfolio projects
 
-### [TCGA-BRCA Molecular Subtype Classifier](https://github.com/virginiagalvan/tcga-brca-subtype-classifier) · [Live API](https://tcga-brca-subtype-classifier.onrender.com/docs)
+### [Predicting Breast Cancer Treatment Subtype from Gene Expression Data](https://github.com/virginiagalvan/breast-cancer-subtype-predictor) · [Live API](https://tcga-brca-subtype-classifier.onrender.com/docs)
 
-End-to-end, production-shaped ML pipeline predicting PAM50 breast cancer molecular subtype (Luminal A/B, HER2-enriched, Basal-like) from gene expression, using the public TCGA-BRCA cohort (cBioPortal API, 981 patients). Data loaded into a SQL database for cohort/feature-set assembly; Logistic Regression, Random Forest, and XGBoost compared via cross-validation (XGBoost best: 93% test accuracy); SHAP interpretability cross-checked against known breast-cancer biology (ESR1, ERBB2, MKI67); trained model served through a FastAPI endpoint, containerized with Docker, and deployed live on Render.
+Predicts which of 5 breast cancer subtypes (PAM50: Luminal A, Luminal B, HER2-enriched, Basal-like, Normal-like) a tumor has from gene expression — the subtype determines whether a patient receives hormone therapy, targeted therapy, or chemotherapy. Model correctly classifies 93% of patients in testing (F1-macro 0.86), and — without being told anything about cancer biology — independently identified the estrogen-receptor gene (ESR1) as its top predictive signal, the same gene oncologists already use to guide treatment. Built end-to-end on the public TCGA-BRCA cohort (cBioPortal API, 981 patients): SQL-based cohort assembly, model comparison (Logistic Regression, Random Forest, XGBoost), SHAP interpretability, deployed live via FastAPI + Docker.
 
 `Python` `SQL` `scikit-learn` `XGBoost` `SHAP` `FastAPI` `Docker` `Jupyter`
 
