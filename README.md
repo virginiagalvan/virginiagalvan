@@ -22,7 +22,7 @@ Data Scientist · PhD in Biological Sciences
 
 ## About
 
-Data scientist with a PhD in Biological Sciences, applying statistical modeling and machine learning to biological and clinical data. Experience spans end-to-end ML pipelines — from data acquisition and SQL-based cohort assembly to model development, interpretability, and deployment — alongside computational biology work in metagenomics and microbial lipid metabolism. I combine rigorous scientific methodology with production-oriented engineering practices to build reliable tools from complex datasets.
+Data scientist with a PhD in Biological Sciences. A bioinformatics background introduced me to working with large-scale, complex datasets to solve biological problems; today I apply statistical modeling and machine learning to biological and other types of complex data — building end-to-end ML pipelines, from data acquisition and model development to interpretability and deployment (APIs, containerization).
 
 ---
 
