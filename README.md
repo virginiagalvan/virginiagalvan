@@ -22,7 +22,7 @@ Data Scientist · PhD in Biological Sciences
 
 ## About
 
-Data scientist with a PhD in Biological Sciences. A bioinformatics background introduced me to working with large-scale, complex datasets to solve biological problems; today I apply statistical modeling and machine learning to biological and other types of complex data — building end-to-end ML pipelines, from data acquisition and model development to interpretability and deployment (APIs, containerization).
+Data scientist with a PhD in Biological Sciences. A bioinformatics background introduced me to working with large-scale, complex datasets to solve biological problems; today I apply statistical modeling and machine learning to diverse types of complex data — building end-to-end ML pipelines, from data acquisition and model development to interpretability and deployment (APIs, containerization).
 
 ---
 
