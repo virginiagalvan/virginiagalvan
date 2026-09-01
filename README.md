@@ -28,11 +28,19 @@ Data scientist with a PhD in Biological Sciences. A bioinformatics background in
 
 ## Portfolio projects
 
-### [Predicting Breast Cancer Treatment Subtype from Gene Expression Data](https://github.com/virginiagalvan/breast-cancer-subtype-predictor) · [Live API](https://tcga-brca-subtype-classifier.onrender.com/docs)
+### [ML-Based Prediction of Breast Cancer Treatment Subtype from Gene Expression Data](https://github.com/virginiagalvan/breast-cancer-subtype-predictor) · [Live API](https://tcga-brca-subtype-classifier.onrender.com/docs)
 
 Built and deployed a supervised ML classifier (Logistic Regression, Random Forest, XGBoost — compared via cross-validation) that predicts breast cancer subtype from gene expression data, reaching 93% accuracy on 981 patients (TCGA-BRCA). Full pipeline: SQL-based cohort assembly, model selection, SHAP interpretability, and a live REST API (FastAPI + Docker). The model's top predictive feature — found automatically, with no domain input — was ESR1 (estrogen receptor), the same gene oncologists use to guide treatment.
 
 `Python` `SQL` `scikit-learn` `XGBoost` `SHAP` `FastAPI` `Docker` `Jupyter`
+
+---
+
+### [Biocatalyst Candidate Clustering: Prioritizing Enzyme Candidates with Unsupervised Learning](https://github.com/virginiagalvan/clustering-for-industrial-biocatalyst-discovery)
+
+Framed a real bottleneck in industrial biocatalyst discovery — deciding which enzyme candidates are worth testing experimentally — as an unsupervised learning problem. Used K-means and hierarchical clustering (independently corroborating each other) to group ~2,200 candidates across 5 evaluation criteria, then translated the clusters into an actual ranked shortlist: composite scoring within the strongest cluster, deliberate inclusion of a calculated-risk group instead of only "safe" picks, and a rare co-membership signal used as an explicit tie-breaker.
+
+`Python` `scikit-learn` `pandas` `SciPy` `Jupyter`
 
 ---
 
