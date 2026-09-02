@@ -23,14 +23,14 @@ Data Scientist · PhD in Biological Sciences
 ## About
 
 Professional with 5+ years of experience in advanced data analysis and predictive modeling. 
-Specialized in optimizing complex processes through data mining, end-to-end pipelines (Python, SQL, FastAPI, 
-Docker), and AI applied to biological and clinical data. In my early years of experience, I led a project focused on 
+Specialized in optimizing complex processes through data mining, end-to-end pipelines (Python, SQL, R), and AI 
+applied to biological and clinical data. In my early years of experience, I led a project focused on 
 mining public databases, working with environmental sample data on a global scale, aimed at developing new 
 catalysts for the biodiesel industry. I led the resulting multidisciplinary collaboration after winning a national grant 
 to expand the project’s scope, coordinating groups across different regions of the country. I developed clustering 
-and scoring algorithms that narrowed thousands of candidates down to high-impact selections with 75% 
-experimental accuracy. I have also deployed predictive models for clinical subtypes with 93% accuracy, from data acquisition 
-and model development to interpretability and deployment (APIs, containerization).
+and scoring algorithms that narrowed thousands of candidates down to high-impact selections with 75% experimental accuracy. 
+I have also deployed predictive models for clinical subtypes with 93% accuracy, from data acquisition and model development 
+to interpretability and deployment via a REST API (FastAPI), containerized with Docker. 
 
 
 ---
