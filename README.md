@@ -12,6 +12,9 @@ Data Scientist · PhD in Biological Sciences
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-006ACC?style=flat)
+![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=flat)
+![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat)
+![Optuna](https://img.shields.io/badge/Optuna-0078D4?style=flat)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-E97627?style=flat&logo=jupyter&logoColor=white)
@@ -27,10 +30,12 @@ Specialized in optimizing complex processes through data mining, end-to-end pipe
 applied to biological and clinical data. In my early years of experience, I led a project focused on 
 mining public databases, working with environmental sample data on a global scale, aimed at developing new 
 catalysts for the biodiesel industry. I led the resulting multidisciplinary collaboration after winning a national grant 
-to expand the project’s scope, coordinating groups across different regions of the country. I developed clustering 
+to expand the project's scope, coordinating groups across different regions of the country. I developed clustering 
 and scoring algorithms that narrowed thousands of candidates down to high-impact selections with 75% experimental accuracy. 
-I have also deployed predictive models for clinical subtypes with 93% accuracy, from data acquisition and model development 
-to interpretability and deployment via a REST API (FastAPI), containerized with Docker. 
+Extending this focus on the biofuels industry to market dynamics, I built and compared six forecasting models across a 
+107-country consumption panel, translating the results into business KPIs (growth rate, market penetration) for 
+stakeholder reporting. I have also deployed predictive models for clinical subtypes with 93% accuracy, from data 
+acquisition and model development to interpretability and deployment via a REST API (FastAPI), containerized with Docker.
 
 
 ---
@@ -42,6 +47,14 @@ to interpretability and deployment via a REST API (FastAPI), containerized with 
 Built and deployed a supervised ML classifier (Logistic Regression, Random Forest, XGBoost — compared via cross-validation) that predicts breast cancer subtype from gene expression data, reaching 93% accuracy on 981 patients (TCGA-BRCA). Full pipeline: SQL-based cohort assembly, model selection, SHAP interpretability, and a live REST API (FastAPI + Docker). The model's top predictive feature — found automatically, with no domain input — was ESR1 (estrogen receptor), the same gene oncologists use to guide treatment.
 
 `Python` `SQL` `scikit-learn` `XGBoost` `SHAP` `FastAPI` `Docker` `Jupyter`
+
+---
+
+### [Global Biofuels Consumption Forecasting: Modeling and Country Ranking](https://github.com/virginiagalvan/biofuels-market-forecasting)
+
+Predicted biofuels consumption (biodiesel + ethanol combined) by country from a 2000-2024 global panel of 107 countries, comparing six models — Ridge, Random Forest, XGBoost, LightGBM, and CatBoost against a baseline — under temporal cross-validation. The tuned XGBoost model reached a MAE of 1.10 TWh (R² 0.986), cutting the baseline error more than 10x, with SHAP interpretability and bootstrap confidence intervals reported alongside the point estimate. Results were translated into business KPIs (5-year CAGR, market penetration, continent-level ranking) and exported as Power BI-ready tables; the model's error comes out to just 8.5% of actual volume in the five countries that account for 80% of world consumption.
+
+`Python` `scikit-learn` `XGBoost` `LightGBM` `CatBoost` `Optuna` `SHAP` `Plotly` `pandas`
 
 ---
 
